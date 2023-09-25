@@ -323,11 +323,14 @@ namespace ArrayParsing.App
                     }
                 }
 
+                // This if block will execute if 'NeedParse2' is false and 'determiner' equals 'ans2'
+                // This means the user has no string to parse and the program will end.
                 if (NeedParse2 == false & determiner == ans2)
                 {
                     Console.WriteLine("This program is now terminating. Press enter to end.");
                 }
 
+                // This if block will execute if none of the above if block's conditions are met.
                 else
                 {
                     // Ask the user again if they have a string to parse.
